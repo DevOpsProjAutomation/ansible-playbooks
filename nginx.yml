@@ -1,6 +1,4 @@
-- hosts: 
-    - 172.20.185.89
-    - localhost
+- hosts: localhost
   become: True
   tasks:
     - name: configure nginx rpm
